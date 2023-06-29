@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lesson-5-23"
+version = "0.1.0"
+description = "Mobile tests"
+authors = ["Aleksandr Zavialov"]
+readme = "README.md"
+packages = [{include = "lesson_5_23"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = ">=7.4.0"
+pydantic = ">= 1.10.9"
+Appium-Python-Client = ">=2.6.1"
+selene = ">=2.0.0rc2"
+allure-pytest = ">=2.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
