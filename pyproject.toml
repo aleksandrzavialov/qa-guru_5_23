@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "lesson_5_23"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10.5"
 pytest = ">=7.4.0"
 pydantic = ">= 1.10.9"
 Appium-Python-Client = ">=2.6.1"
